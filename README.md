@@ -1,4 +1,5 @@
-#IP_AI_only
+# IP_AI_only
+
 Welcome to the secret cache of mangoes.
 
 This repository contains the code made by the student SID2421220/1 (Javier Bharat) for the subject MOD002643 (Image Processing). This repository is an appendix to a document called "Interrogation Report", developed to assist the lecturer in marking. The rest of this readme.md file will be a table detailing the files within this repository and their role in the assignment. NOTE: all external code is referenced via MATLAB's official documentation, such as the layer architecture being under _trainnet_, as an example.
