@@ -5,7 +5,7 @@ This repository contains the code made by the student SID2421220/1 (Javier Bhara
 
 |	File name		|	Description/Role							|
 |-------------------------------|-------------------------------------------------------------------------------|
-|	trainingdata.zip	|	This file is the output of the program init_ai.m, which uses the "by_field.zip" data from NIST Special Database 19 (See report for source) to preprocess numerical symbols and centralize them for an imageDatastore MATLAB Object to be used to train a neural net. |
+|	trainingdata.zip	|	This file could not be included because it was too large (see Google Drive link in report appendix), but is the output of the program init_ai.m, which uses the "by_field.zip" data from NIST Special Database 19 (See report for source) to preprocess numerical symbols and centralize them for an imageDatastore MATLAB Object to be used to train a neural net. |
 |	init_ai.m		|	This script normalizes the data for numerical symbols, but also is the script to train the neural net using stochastic gradient descent with momentum, outputing the resulting objects to files (net.mat for 10 numerical symbols, and finalnet for 14 classification to include swiping). Switching between these two functions, data preprocessing and the actual training, was done using comments. |
 |	ai.m			|	This script was used to grab an image, and attempt to classify it using the initial test net of ten 10 classifications, used to aid testing of new data. |
 |	curvetest.m		|	This script aided in swipe data generation, was used for testing the sin function for curving swipes. The human hand doing a swipe in any direction is not perfect, so sin was used to mimic this imperfection by curving the swipes in the training data slightly. |
